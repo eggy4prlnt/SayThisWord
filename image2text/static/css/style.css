@@ -1,0 +1,157 @@
+:root {
+    --root-color: #574b90;
+    font-family: 'Open Sans', 'Roboto', 'Helvetica', Sans-Serif;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+}
+.form-control:focus {
+    border-color:#796eb1;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px  #796eb1;
+}
+.btn-play:hover {
+    background-color: white;
+    color: var(--root-color);
+    border: 1px solid var(--root-color);
+}
+.btn-play {
+    color: white;
+    background-color: var(--root-color);
+    width: 200px;
+    font-size: 0.857142857142857em;
+    line-height: 2.166666666666667em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+.btn-start:hover {
+    color: white;
+    background-color: var(--root-color);
+    border: 1px solid white;
+}
+.btn-start {
+    font-size: 0.857142857142857em;
+    line-height: 2.166666666666667em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+.card-start {
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.sub-title {
+    font-weight: 800;
+}
+/* Navbar */
+.navbar {
+    background-color: var(--root-color);
+    height: 70px;
+}
+
+.navbar .navbar-brand {
+    font-weight: 800;
+    letter-spacing: .5px;
+    line-height: 2.166666666666667em;
+}
+
+.navbar .nav-item {
+    color: white;  
+    font-size: 0.857142857142857em;
+    line-height: 2.166666666666667em;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+.navbar .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color: var(--root-color);
+    height: 90vh;
+    background-image: url('../img/Wave-10s-1366px.svg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: bottom;
+    background-size: inherit;
+}
+.jumbotron .text-jumbotron {
+    margin-top: 50px;
+}
+.jumbotron .text-jumbotron h1 {
+    font-weight: 600;
+    color: #fff;
+}
+.jumbotron .text-jumbotron .lead {
+    /* font-weight: 400; */
+    color: #fff;
+    overflow: hidden;
+    white-space: inherit;
+    text-overflow: ellipsis;
+}
+.jumbotron .form-user {
+    height: 2.7em;
+    font-weight: 600;
+    font-family: inherit;
+    padding-left: 1em;
+    background: #fcfcfc;
+    /* padding: 0.5em; */
+    border-radius: 6px;
+    border: 1px solid #ececec
+}
+.jumbotron button {
+    width: 50px;
+    background-color: #fff;
+    border: #000;
+}
+
+/* section kedua */
+#start {
+    height: 100vh;
+}
+
+/* section ketiga */
+#privacy-policy {
+    height: 100vh;
+}
+
+/* footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+}
+.footer .text-footer {
+    color: #666666;
+    font-size: 15px;
+}
+.footer .text-footer a {
+    color: #666666;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+    .jumbotron {
+        height: 500px;
+    }
+    body > div > div > div > div.col-sm-6.text-center {
+        display: none;
+
+    }
+    #start {
+        margin-top: 100px;
+    }
+    #privacy-policy {
+        margin-top: 100px;
+    }
+}
