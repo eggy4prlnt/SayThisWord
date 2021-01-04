@@ -2,6 +2,8 @@
 
 Simple Text to Speech with Django
 
+![SayThisWord](https://raw.githubusercontent.com/EgiAprilianto/SayThisWord/main/.img/ss.png)
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
