@@ -12,7 +12,7 @@ Simple Text to Speech with Django
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install django & pyttsx3.
 
 ```bash
-$ pip install django pyttsx3
+$ pip3 install django pyttsx3
 $ git clone https://github.com/EgiAprilianto/SayThisWord
 $ cd SayThisWord  
 ```
