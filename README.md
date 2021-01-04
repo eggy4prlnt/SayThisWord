@@ -18,14 +18,9 @@ $ cd SayThisWord
 ```
 
 ## Usage
-You need to run the migrations :
-
-```bash
-$ python manage.py migrate
-```
 Run your django application
 ```bash
-$ python manage.py runserver
+$ python3 manage.py runserver
 ```
 
 ## Contributing
